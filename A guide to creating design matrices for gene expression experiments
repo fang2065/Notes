@@ -1,0 +1,9 @@
+A guide to creating design matrices for gene expression experiments
+https://f1000research.com/articles/9-1444
+
+Two challenges 
+the set up an appropriate model via design matrices and the set up of comparisons of interest via contrast matrices
+
+models with a single explanatory variable
+as well as  interaction models, mixed effects models, higher order time series and cyclical models
+
