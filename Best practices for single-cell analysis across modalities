@@ -1,0 +1,14 @@
+Best practices for single-cell analysis across modalities
+
+scRNA-seq captures only one layer of the complex regulatory machinery that governs cellular function and signalling. 
+To complement this, considerable efforts have been made to measure other modalities at single-cell resolution, 
+including chromatin accessibility9, surface proteins10, T cell receptor (TCR)/B cell receptor (BCR) repertoires11 and spatial location12
+
+Filter low-quality cells and correct the noise 
+low quality cell (high mitochondrial genes or low gene count); Ambient RNA contamination; Empty droplets and doublets; 
+needs to be reassessed during downstream analysis when low-quality cells and doublets cluster together.
+setting permissive thresholds initially and potentially removing more cells as necessary during (re-)analysis.
+
+
+Normalization and variance stabilization
+count normalization makes cell comparable 
